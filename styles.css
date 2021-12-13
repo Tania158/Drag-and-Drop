@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 180px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 80px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #ffffff;
+  background: url(https://tennismag.com.ua/upload/iblock/ad3/ad3886c0175b69e119351c28d54ce5e4.jpg) center no-repeat;
+  background-size: 180px 180px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.start {
+  background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  background: url(https://tennismag.com.ua/upload/iblock/ad3/ad3886c0175b69e119351c28d54ce5e4.jpg) center no-repeat;
+  background-size: 180px 180px;
+  border-radius: 80px;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background: url(https://neposedam.com.ua/qshop/userfiles/image/tov/c-1816-1-kiev-ukraina.jpg);
+  background-size: 180px 180px;
+}
